@@ -1,0 +1,9 @@
+Exercise 4
+Write a program for the following numerical game:
+The computer stores a random number between 1 and 15 and the player (user) attempts to guess it. The player has a total of three attempts. After each wrong guess, the computer tells the user if the number was too high or too low. If the third attempt is also wrong, the number is output on screen.
+The player wins if he or she can guess the number within three attempts. The player is allowed to repeat the game as often as he or she wants.
+
+Escreva um programa para o seguinte jogo númerico:
+O computador armazena um número aleatório entre 1 e 15 e o jogador(usuário) tenta adivinhá-lo. O jogador tem um total de três tentativas.Após cada palpite errado, o computador informa ao usuário se o número estava muito alto ou muito baixo. Se a terceira tentativa também estiver errada, o número é exibido na tela.
+O jogador vence se ele ou ela conseguir adivinhar o número dentro de três tentativas.
+O jogador tem permissão para repetir o jogo quantas vezes ele ou ela quiser. 

@@ -1,0 +1,17 @@
+Exercise I
+Create a program to calculate the square roots of the numbers
+4
+12.25
+0.0121
+and output them as shown opposite. Then read a number from the keyboard and output the square root of this number.
+To calculate the square root, use the function sqrt(), which is defined by the following prototype in the math.h (or cmath) header file:
+double sqrt(double x);
+The return value of the sqrt() function is the square root of x.
+
+Crie um programa para calcular as raízez quadradas dos números
+4
+12.25
+0.0121
+e exiba como mostrado ao lado. Em seguida, leia um número do teclado e exiba a raiz quadrada desse número. Para calcular a raiz quadrada, use a função sqrt(), que é definida pelo seguinte protótipo no arquivo de cabeçalho math.h( ou cmath):
+double sqrt( double x);
+O valor de retorno da função sqrt() é a raiz quadrada de x.
