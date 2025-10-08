@@ -10,7 +10,7 @@ class Carro{
     public:
 
     //construtor
-        Carro(  int a = 0, float km = 0, float v = 0){
+        Carro( int a = 0, float km = 0, float v = 0){
             ano = a;
             velocidade = km;
             preco = v;
@@ -43,12 +43,7 @@ class Carro{
 
 };
 
-
-
-
-
 int main() {
-
     // com o contrutor, teremos valores iniciais definidos para os atributos:
     // Carro palio(2010, 144, 25500.50);
     // nesse caso, não precisamos usar os sets para definir valores
@@ -62,7 +57,6 @@ int main() {
 
     palio.setvelocidade(144);
     cout << palio.getvelocidade() << endl;
-
 
     // Carro celta(1999, 120, 31000.50);
     Carro celta; // objeto da classe Carro: celta
