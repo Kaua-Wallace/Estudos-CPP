@@ -1,4 +1,4 @@
-# C - Ferry Loading IV
+# C - Carregamento de balsa
 
 Antes de pontes serem comuns, balsas eram usadas para transportar carros através de rios. Balsas fluviais, ao contrário de suas primas maiores, operam em um cabo guia e são movidas pela correnteza do rio. Os carros entram na balsa por uma extremidade, a balsa cruza o rio, e os carros saem pela outra extremidade da balsa.
 
