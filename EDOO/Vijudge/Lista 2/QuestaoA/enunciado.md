@@ -2,13 +2,13 @@
 
 Sua tarefa é calcular o resultado de um processo hashing em uma tabela de 101 elementos, contendo chaves que são strings de comprimento de no máximo 15 letras (código ASCII 'A',...,'z'). Implemente as seguintes operações:
 
-* Busque o índice do elemento definido pela chave(ignore, se não houver tal houver tal elemento)
+* Busque o índice do elemento definido pela chave(ignore, se não houver tal elemento)
 
 * Insere uma nova chave na tabela (ignore a inserção da chave que já existe)
 
 * Delete uma chave da tabela (sem mover as outras), marcando  a posição na tabela como vazia (ignore chaves não existentes na tabela)
 
-Quando executando as operações find, insert e delete, define a seguinte função:
+Quando executando as operações find, insert e delete, defina a seguinte função:
 
 integer Hash(string key), que para uma string key=a1....an retorna o valor:
 
@@ -34,7 +34,7 @@ DEL: string[demais casos testes, sem linha vazias entre as séries]
 
 Output
 
-Para cada caso teste você tem que criar uma nova tabela, imserir ou deletar chaves, e escrever na saída:
+Para cada caso teste você tem que criar uma nova tabela, inserir ou deletar chaves, e escrever na saída:
 
 o número de chaves na tabela[primeira linha]
 
