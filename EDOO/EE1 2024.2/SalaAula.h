@@ -1,3 +1,5 @@
+
+
 #include "Sala.h"
 
 class SalaAula: public Sala {
@@ -6,7 +8,7 @@ class SalaAula: public Sala {
 
     public:
         SalaAula (const string&, const int&, const bool&, const bool&);
-        
+
         bool reservar(int qtdPessoas, string nomeResponsavel) override;
 
         void setPossuiQuadroInterativo( const bool& QuadroSalaAula){
@@ -18,3 +20,4 @@ class SalaAula: public Sala {
         }
 
 };
+

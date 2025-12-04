@@ -1,3 +1,5 @@
+#ifndef SALA_H
+#define SALA_H
 #include <iostream>
 #include <string>
 
@@ -42,3 +44,5 @@ class Sala {
             return responsavel;
         }
 };
+
+#endif
