@@ -8,10 +8,11 @@ class Sala {
         string tipo;
         int capacidade;
         bool disponivel;
-        string responsavel;
+        string responsavel; // para guardar quem reservou
 
     public:
         Sala ( const string&, const int&, const bool&);
+        virtual bool reservar( int qtdPessoas, string nomeResponsavel) = 0;
         
         void setTipo( const string& tipoSala) {
             tipo = tipoSala;
@@ -32,5 +33,12 @@ class Sala {
         }
         bool getDisponivel() {
             return disponivel;
+        }
+
+        void setResponsavel( const string& nomeResponsavel) {
+            responsavel = nomeResponsavel;
+        }
+        string getResponsavel() {
+            return responsavel;
         }
 };

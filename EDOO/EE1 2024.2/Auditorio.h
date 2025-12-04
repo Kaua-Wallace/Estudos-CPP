@@ -6,6 +6,8 @@ class Auditorio : public Sala{
         
     public:
         Auditorio(const string&, const int&, const bool&, const bool&);
+        
+        bool reservar(int qtdPessoas, string nomeResponsavel) override;
 
         void setPossuiSistemaSom( const bool& sistsomAuditorio){
             possuiSistemaSom = sistsomAuditorio;
