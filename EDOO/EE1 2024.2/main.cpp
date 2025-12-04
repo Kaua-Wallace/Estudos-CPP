@@ -17,4 +17,19 @@ int main() {
     for(int i = 0; i < numSalas; i++) {
         cin >> tipo >> capacidade >> disponivel >> ultimoAtributo;
     }
+
+
+    int numReservas;
+
+    cin >> numReservas;
+
+    for(int i = 0; i < numReservas; i++) {
+        string tipoSala;
+        int qtdPessoas;
+        string nomeResponsavel;
+
+        cin >> nomeResponsavel >> tipoSala >> qtdPessoas ;
+    }
+
+    return 0;
 };
