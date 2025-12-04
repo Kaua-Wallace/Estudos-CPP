@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <algorithm> // pra usar std::max
 
 using namespace std;
 
@@ -22,8 +21,11 @@ int depthHelp(const string& s, int& index) {
         // subarvore direita
         int rightdepth = depthHelp(s, index);
 
-        
-        return 1 + max(leftdepth, rightdepth); // max: pega a maior profundidade entre as duas subarvores
+       if (leftdepth > rightdepth) {
+            return leftdepth + 1;
+        } else {
+            return rightdepth + 1;
+        }
     }
 }
 
