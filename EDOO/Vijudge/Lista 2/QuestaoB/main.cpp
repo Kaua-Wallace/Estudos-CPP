@@ -66,7 +66,8 @@ void solve() {
 
             dataset.clear(); // limpando para o proximo dataset( esvaziando o vetor)
 
-            if (line == "$") break;
+            if (line == "$") 
+                break;
         } else {
             dataset.push_back(line);
         }
