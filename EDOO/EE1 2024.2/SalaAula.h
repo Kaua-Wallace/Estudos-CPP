@@ -1,5 +1,3 @@
-
-
 #include "Sala.h"
 
 class SalaAula: public Sala {
