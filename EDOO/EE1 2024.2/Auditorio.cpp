@@ -29,3 +29,13 @@ bool Auditorio::reservar(int pessoas, string nomeResponsavel) {
     }
 }
 
+/*
+Auditorio.cpp
+Implementação dos métodos de Auditorio declarados em Auditorio.h.
+Responsabilidades principais:
+- Inicializar atributos via construtor;
+- Implementar regras de reserva específicas do auditório;
+- Delegar lógica comum para Sala quando aplicável.
+Assume que parâmetros são validados; funções retornam status (ex.: bool) sem gerenciar I/O diretamente.
+*/
+

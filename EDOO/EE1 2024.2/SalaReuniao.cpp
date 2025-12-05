@@ -28,4 +28,14 @@ bool SalaReuniao::reservar(int pessoas, string nomeResponsavel) {
         return false;
     }
     
-}
+};
+
+/*
+SalaReuniao.cpp
+Implementação dos métodos de SalaReuniao.
+Responsabilidades:
+- Inicializar possuiVideoConferencia via construtor;
+- Implementar regras de reserva específicas (ex.: checar capacidade e recursos);
+- Delegar para Sala quando comportamentos comuns forem aplicáveis.
+Documentar quaisquer retornos de erro/false e as condições que os provocam.
+*/

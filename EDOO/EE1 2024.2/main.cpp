@@ -65,3 +65,11 @@ int main() {
     
     return 0;
 };
+/*
+main.cpp
+Ponto de entrada do programa para testar o modelo de salas.
+Responsabilidades:
+- Criar instâncias (Sala, SalaAula, SalaReuniao, Auditorio) para demonstração/testes;
+- Executar cenários de reserva e imprimir resultados no console.
+Manter lógica mínima aqui; lógica de negócios deve residir nas classes.
+*/

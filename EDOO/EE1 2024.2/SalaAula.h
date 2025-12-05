@@ -16,6 +16,11 @@ class SalaAula: public Sala {
         bool getPossuiQuadroInterativo() {
             return possuiQuadroInterativo;
         }
-
 };
-
+    /*
+    SalaAula.h
+    Declaração da classe SalaAula derivada de Sala.
+    Responsabilidade: representar salas de aula com possíveis atributos extras (quadro, projetor).
+    Contrato: pode sobrescrever reservar para regras específicas (ex.: número mínimo/máximo de alunos).
+    Documentar comportamentos diferenciais aqui.
+    */

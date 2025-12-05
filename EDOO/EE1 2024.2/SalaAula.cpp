@@ -29,3 +29,12 @@ bool SalaAula::reservar(int pessoas, string nomeResponsavel) {
         return false;
     }
 }
+
+/*
+SalaAula.cpp
+Implementação dos métodos de SalaAula.
+Responsabilidades:
+- Inicializar atributos específicos da sala de aula;
+- Aplicar validações particulares em reservar e delegar lógica comum para Sala quando adequado.
+Manter código claro sobre quais regras são locais à SalaAula.
+*/

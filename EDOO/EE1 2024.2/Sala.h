@@ -46,3 +46,13 @@ class Sala {
 };
 
 #endif
+
+/*
+Sala.h
+Declaração da classe base Sala.
+Responsabilidade: encapsular comportamento comum a todos os tipos de sala
+(nome, capacidade, estado de ocupação, interface reservar).
+Contrato: métodos públicos devem validar parâmetros (ex.: capacidade, número de pessoas)
+e manter invariantes da instância.
+Filhas sobrescrevem reservar quando regras específicas forem necessárias.
+*/

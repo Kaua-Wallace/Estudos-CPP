@@ -17,6 +17,17 @@ class SalaReuniao : public Sala{
         }
 };
 
+/*
+SalaReuniao.h
+Declaração da classe SalaReuniao (derivada de Sala).
+Responsabilidade: representar salas de reunião com atributo adicional de videoconferência.
+Principais pontos:
+- possuiVideoConferencia indica disponibilidade do recurso;
+- reservar sobrescreve a política de reserva da Sala base;
+- construtor recebe nome, capacidade e flags relevantes.
+Documentar pré-condições (ex.: qtdPessoas > 0) e efeitos de reservar.
+*/
+
 
 
 
